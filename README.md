@@ -1,4 +1,4 @@
-# B+-Tree-based-index-implementation
+# B+ - Tree-based-index-implementation
 Implemented a B+tree based indexing to speed up searching in a relational database resulting in the reduction of search time to **log(n) with base d** where d is the degree of the B+tree and n is the number of index pages
 
 ## Workflow
@@ -36,7 +36,7 @@ Extent ->  Pages -> Rows
 ![image](https://user-images.githubusercontent.com/46842087/88777098-78d09a00-d1a4-11ea-86bf-e00bb9b1ee37.png)
 
 For demonstration purpose, the schema of the table is as :
-     Roll number  |   Name   |   Username  |    Password
+     Roll number  |   Name   |   Username  |    Password .
 
 6.  Users can create Non-Clustered indexing [[?]](https://www.sqlshack.com/what-is-the-difference-between-clustered-and-non-clustered-indexes-in-sql-server/) on any attribute of the table from the index panel which has a drop-down list to select the attribute name for the creation of indexes.
 
@@ -78,7 +78,7 @@ A B-Tree index speeds up data access because the storage engine doesn’t have t
 ![b-tree](https://user-images.githubusercontent.com/46842087/88758387-f0db9780-d185-11ea-8971-3501d63c8db9.png)
 
 
-**B+ -Tree Indexes**
+**B+ - Tree Indexes**
 
 B+tree is another data structure used to store data, which is almost the same as the B-tree. The only difference of B+tree is that it stores data on the leaf nodes. This means that all non-leaf node values are duplicated in leaf nodes again. Below is a sample B+tree.
 
